@@ -3,3 +3,13 @@ Twitter Tweet Chunker
 For shits and giggles, uses War and Peace by default. 
 
 sleep(36) is a magic number to avoid hitting the per hour status update limit.
+
+Takes in a naive single argument: offset
+
+Usage:
+
+python twitter_chunker.py
+--> offset 0, starts from first word
+
+python twitter_chunker.py 25
+--> offset 25, starts from 26th word
